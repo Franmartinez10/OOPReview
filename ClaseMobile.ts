@@ -1,4 +1,4 @@
-export class mobile
+export class Mobile
 {
     private name:string;
     private model:string;
@@ -83,6 +83,21 @@ export class mobile
     public setPrice(price:number)
     {
         this.price = price
+    }
+
+    public getPrint()
+    {
+        console.log
+        (
+            "The characteristics of the mobile" + this.name + " are:" + "\n" +
+            "  *  Name: "+this.name +"\n" +
+            "  *  Model: "+this.model +"\n" +
+            "  *  TradeMark: "+this.trademark +"\n" +
+            "  *  SD Size (GB): "+this.sdsize +"\n" +
+            "  *  Color: "+this.color +"\n" +
+            "  *  Is 5g?: "+this.is5G +"\n" +
+            "  *  Number of Cameras: "+this.cameraNumber +"\n" 
+        )
     }
     
 
