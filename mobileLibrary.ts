@@ -65,6 +65,8 @@ export class MobileLibrary
         {
             this.mobiles[i].getPrint()
         }
+        console.log("Price overall: "+ this.totalPrice);
+        
    }
 
 } 
