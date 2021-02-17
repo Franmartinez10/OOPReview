@@ -8,4 +8,6 @@ let  honor:Mobile = new Mobile("Honor","pro","Huawei",24,"red",true,1,122)
 let arraitoMobiles:Mobile[] = [nokia3210,iPhone3G,samsung_Galaxy_10,samsung_Galaxy_10,honor]
 let libreriaMobiles:MobileLibrary = new MobileLibrary("PhoneHouse","Madrid",arraitoMobiles)
 
-console.log(libreriaMobiles.totalPriceCalculation())
+//console.log(libreriaMobiles.totalPriceCalculation())
+
+libreriaMobiles.printLibrary();
